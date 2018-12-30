@@ -122,6 +122,10 @@ def winner(board)
 end
 
 def play(board)
+end
+
+=begin
+def play(board)
   until over?(board)
     turn(board)
   end
@@ -131,3 +135,4 @@ def play(board)
     puts "Cat's Game!"
   end
 end
+=end
